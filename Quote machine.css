@@ -16,3 +16,12 @@
 	--white: #ffffffff;
 }
 
+html, body{
+  background-color: var(--eerie-black);
+	height: 100%;
+	width: 100%;
+	display: flex;
+	font-size: 100%;
+	justify-content: center;
+	color: var(--cultured);
+}
