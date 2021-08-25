@@ -6,6 +6,7 @@
 :root {
 	--rich-black-fogra-39: #0b090aff;
 	--eerie-black: #161a1dff;
+  /* #242533 */
 	--blood-red: #660708ff;
 	--ruby-red: #a4161aff;
 	--carnelian: #ba181bff;
@@ -16,6 +17,7 @@
 	--white: #ffffffff;
 }
 
+
 html, body{
   background-color: var(--eerie-black);
 	height: 100%;
@@ -24,4 +26,61 @@ html, body{
 	font-size: 100%;
 	justify-content: center;
 	color: var(--cultured);
+  font-family: Roboto;
+}
+h1{
+  font-size: 2.5rem;
+  text-align: center;
+}
+#container{
+  display: flex;
+  width: 60vw;
+  /* border: solid var(--cultured) 3px; */
+  flex-direction: column;
+}
+#container > *{
+  /* border: solid red 3px; */
+}
+#quote-box{
+ /* flex: 1; */
+ font-size: 1.5rem;
+ color: var(--cultured);
+ /* background-color: #242533; */
+}
+/* #quote-box div{
+  background-color: var(--cultured);
+  margin: 2rem;
+} */
+
+#buttons{
+  display: flex;
+  flex-direction: column;
+}
+#buttons div{
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1;
+  /* border: solid yellow 3px; */
+}
+#buttons button{
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+
+	transition: all 0.4s ease-in-out;
+	font-size: 1.3rem;
+	border: solid var(--cultured) 5px;
+	margin: 1rem;
+	padding: 0.7rem 3rem;
+	flex: 1;
+	border-radius: 3px;
+}
+
+#buttons button:hover {
+	color: var(--eerie-black);
+	background-color: var(--cultured);
 }
