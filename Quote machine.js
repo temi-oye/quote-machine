@@ -1,11 +1,8 @@
-let quotesArr = [];
-let currentImgIndex = 0;
 let quoteDiv = document.getElementById("quote");
 let quoteeDiv = document.getElementById("quotee");
 let animeBtn = document.getElementById("anime-btn");
 let kanyeBtn = document.getElementById("kanye-btn");
 let inspirationalBtn = document.getElementById("inspirational-btn");
-let stoicBtn = document.getElementById("stoic-btn");
 let movieBtn = document.getElementById("movie-btn");
 
 function changeQuoteText(quoteText, quoteeText="Kanye", originText="") {
